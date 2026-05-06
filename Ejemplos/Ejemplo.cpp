@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     int a, b;
     
-    cout << "Ingrese el primer número: ";
+    cout << "Ingrese el primer numero: ";
     cin >> a;
-    cout << "Ingrese el segundo número: ";
+    cout << "Ingrese el segundo numero: ";
     cin >> b;
 
     // Operaciones aritméticas
@@ -25,4 +25,3 @@ int main() {
     cout << "residuo de la divicion " << residuo << endl;
     return 0;
 }
-//xd

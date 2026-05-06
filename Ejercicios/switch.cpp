@@ -19,37 +19,33 @@ cin >> n;
 
 switch (n) {
 case 1:
-    cout << "El dia es Lunes" << endl;
-
+   { cout << "El dia es Lunes" << endl; }
+break;
 case 2:
-    cout << "El dia es Martes" << endl;
-
+    { cout << "El dia es Martes" << endl; }
+break;
 case 3:
-    cout << "El dia es Miercoles" << endl;
-
+    { cout << "El dia es Miercoles" << endl; }
+break;
 case 4:
-    cout << "El dia es Jueves" << endl;
-
+    { cout << "El dia es Jueves" << endl; }
+break;
 case 5:
-    cout << "El dia es Viernes" << endl;
-
+    { cout << "El dia es Viernes" << endl; }
+break;
 case 6:
-    cout << "El dia es Sabado" << endl;
-
+    { cout << "El dia es Sabado" << endl; }
+break;
 case 7:
-    cout << "El dia es Domingo" << endl;
-
+    { cout << "El dia es Domingo" << endl; }
+break;
 case 8:
-    cout << "Saliendo del programa..." << endl;
-return 0; 
-}
+    { cout << "Saliendo del programa..." << endl; }
+    return 0;
 
 default:
-if (n >= 0 && n < 8)
-{cout << "coloque un numero del 1 al 7" << endl;
-else
-cout << "Error: numero invalido" << endl;
-}
+    { cout << "Opcion no valida, por favor ingresa un numero del 1 al 8." << endl; }
 
+}
 return 0;
 }  

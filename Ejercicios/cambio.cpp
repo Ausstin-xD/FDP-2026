@@ -12,10 +12,12 @@ cout << "2. Dolar a Yen:" << endl;
 cout << "3. Dolar a Libra:" << endl;
 
 
-    cout << "Ingrese la cantidad en Dólares: ";
+   
+cout << "Ingrese la opcion de cambio: ";
     cin >> cambio;
 
-}
+cout << "Ingrese la cantidad en Dólares: ";
+    cin >> n;
 
 switch (cambio) {
 case 1:

@@ -18,18 +18,18 @@ cout << "Ingrese la cantidad en Dolares: " << endl;
     cin >> n;
 
 switch (cambio) {
-case 1:
-e = (n * 1);
+case 1:  e = (n * 1);
 cout << "El resultado es: " << e << " Euros" << endl;
 break;
-case 2:
-y = (n * 157);
+
+case 2:  y = (n * 157);
 cout << "El resultado es: " << y << " Yenes" << endl;
 break;
-case 3:
-l = (n * 1);
+
+case 3:  l = (n * 1);
 cout << "El resultado es: " << l << " Libras" << endl;
 break;
+
 default:
 cout << "Ingresa una opcion valida (1-3)" << endl;
 }   

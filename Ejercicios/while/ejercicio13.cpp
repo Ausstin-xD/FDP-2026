@@ -2,17 +2,25 @@
 using namespace std;
 
 int main() {
-    int num, suma = 0;
+    int N, i = 1;
+    int a = 0, b = 1, N2;
 
-    do {
-        cout << "Ingresa un numero (0 para terminar): ";
-        cin >> num;
+    cout << "Ingrese un numero, Para calcualr la serie de Fibonacci: ";
+    cin >> N;
 
-        suma = suma + num;
+    cout << "Serie de Fibonacci: ";
 
-    } while (num != 0);
+    while (i <= N) {
 
-    cout << "La suma de los numeros ingresados es: " << suma << endl;
+        N2 = a + b;
+        a = b;
+        b = N2;
+
+        i++;
+        
+        cout << N2 << " ";
+        
+    }
 
     return 0;
 }

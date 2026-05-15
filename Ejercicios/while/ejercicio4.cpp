@@ -23,7 +23,7 @@ do
 
 } while (menu != 2);
 
-
+ cout << "Saliendo del programa..." << endl;
 
 
 
